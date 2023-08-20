@@ -1,11 +1,11 @@
-# Pixel Experience #
+# VoidUI Andromeda - Beta - Mondrian (Poco F5 Pro Edition) #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init -u https://github.com/VoidUI-Andromeda/manifest -b aosp-13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -24,9 +24,3 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-
-### Submitting Patches ###
-
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
